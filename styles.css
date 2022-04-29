@@ -1,0 +1,241 @@
+html {
+	margin-bottom: 10px;
+	margin-right: 140px;
+	margin-left: 140px;
+	cursor:url(images/book.png), auto;
+	zoom: 100%;
+}
+
+.mobile {
+	display: none;
+}
+
+body {
+  background-image: url(images/books-background.jpg);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Cinzel', serif;
+	font-size: 100px;
+	color: #243D25;
+	background-color: #D9DD6B;
+	margin: 10px;
+    border-radius: 25px;
+    border: 100px red;
+     border: 1.9px double rgba(0, 0, 0, 0.5);
+
+}
+.header {
+	font-size: 80px;
+	margin-top: 30px;
+	text-shadow: 1px 1px 4px #28DF99
+}
+
+.info{
+    font-family: 'Cutive', cursive;,;
+    color: #243D25;
+	background-color: #C5D8A4;
+	font-size: 21px;
+	text-align: left;
+	float: left;
+	margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1.9px double rgba(0, 0, 0, 0.5);
+
+
+}
+
+.thisWeeksRead {
+	text-align: right;
+	border-radius: 25px;
+	border: 1.9px double rgba(0, 0, 0, 0.5);
+}
+
+.synopsis {
+	position: relative;
+	margin: 10px;
+	border-radius: 25px;
+	 border: 1.9px double rgba(0, 0, 0, 0.5);
+}
+
+.synopsisHeader {
+	position: relative;
+	top: 170px;
+	left: 400px;
+	border-radius: 25px;
+	 border: 1.9px double rgba(0, 0, 0, 0.5);
+}
+
+#chat {
+	margin: 10px;
+	border-radius: 25px;
+}
+
+.card {
+    background-color: #D9DD6B !important;
+    padding: 2px;
+    border-radius: 25px;
+    margin: 10px;
+    border: 1.9px double rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+	margin-top: 15px;
+}
+
+.card-title{
+	
+}
+
+.mainHeaders span{
+    font-family: 'Merriweather', serif;
+    color: #243D25;
+	background-color: #C5D8A4;
+	font-size: 30px;
+	border-radius: 10px;
+	padding: 10px;
+	text-shadow: 1px 1px 4px #28DF99
+	border: 1.9px double rgba(0, 0, 0, 0.5);
+}
+.mainHeaders {
+	margin-top: 125px;
+    margin-left: 10px;
+}
+.stars {
+	font-size: 40px;
+	
+}
+.btn-primary {
+	background-color: #243D25!important;
+   
+}
+.btn-primary:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.widget {
+	width: 1068px!important;
+}
+.footer-text {
+	background-color: #D9DD6B;
+	color: #243D25;
+	text-align: center;
+	padding: 20px;
+}
+footer {
+	margin-top: 10px;
+}
+img {
+	box-shadow: 10px 10px 6px #243D25;
+	width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px ;
+    position: relative;
+    transition: margin-top ease 1s;
+    transition: box-shadow ease 1s!important;
+}
+img:hover {
+	box-shadow: 20px 20px 15px #243D25;
+	: 10px;
+	margin-top: 0px;
+
+}
+.botm {
+    float: right;
+    position: relative; 
+    left: 250px;
+}
+.special {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	font-size: 20px;
+}
+.card-img-top {
+	width: 230px!important;
+	margin: auto;
+    margin-top: 10px;
+}
+.bold {
+	font-size: 40px!important;
+	font-family: 'Cinzel', serif;
+}
+.game {
+	margin-left: 15px;
+	margin-right: 10px ;
+}
+
+@media (max-width: 800px){
+	html {
+	    margin: 0px;
+	    overflow-x: visible;
+	}  
+    .desktop {
+    	display: none;
+    }
+    .mobile {
+    	display: block ;
+    }
+    .header {
+    	font-size: 60px;
+    	width: 28.438rem!important;
+    }
+    .info {
+    	font-size: 16px;
+    	width: 28.438rem!important
+    }
+    img {
+    	width: 130px;
+    	padding: 0px;
+    	box-shadow: 12px 12px 6px #243D25;
+    }
+    img:active {
+    	box-shadow: 20px 20px 15px #243D25;
+    }
+    .main {
+    	font-size: 15px;
+    	padding: 0px;
+    	float: right;
+    }
+  
+    .card-title {
+    	font-size: 18px;
+    }
+    .stars {
+    	font-size: 20px;!important;
+    	margin: 0;
+    }
+    .widget {
+	width: 460px!important;
+    }
+   .botm {
+   	margin: 0px!important;
+   	right: 800rem;
+    }
+    .mainHeaders {
+    	margin-top: 0px;
+    }
+    .card-body {
+    	float: right;
+    }
+    .btn-primary {
+    	width: 200px;
+    }
+    footer {
+    	margin-bottom: 10px;
+    }
+}
